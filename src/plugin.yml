@@ -1,5 +1,5 @@
 name: ActionBarTimer
 version: SNAPSHOT
-author: Jonathan Herman
-main: Main
+author: jonthesquirrel
+main: io.github.jonthesquirrel.actionbartimer.Main
 website: https://github.com/jonthesquirrel/ActionBarTimer
