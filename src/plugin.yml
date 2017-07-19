@@ -8,3 +8,4 @@ commands:
   timer:
     description: Control the action bar timer
     usage: /timer <set [[hh:]mm:]ss|clear|pause|unpause|add|remove>
+    permission: actionbartimer.use
