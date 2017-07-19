@@ -3,3 +3,7 @@ version: SNAPSHOT
 author: jonthesquirrel
 main: io.github.jonthesquirrel.actionbartimer.Main
 website: https://github.com/jonthesquirrel/ActionBarTimer
+commands:
+  timer:
+    description: Control the action bar timer
+    usage: /timer <set|clear|pause|unpause|add|remove>

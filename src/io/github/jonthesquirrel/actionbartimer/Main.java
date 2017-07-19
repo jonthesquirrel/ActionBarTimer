@@ -6,7 +6,7 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
+        this.getCommand("timer").setExecutor(new CommandTimer());
     }
 
     @Override
