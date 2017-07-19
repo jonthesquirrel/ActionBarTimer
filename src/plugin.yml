@@ -3,6 +3,7 @@ version: SNAPSHOT
 author: jonthesquirrel
 main: io.github.jonthesquirrel.actionbartimer.Main
 website: https://github.com/jonthesquirrel/ActionBarTimer
+depend: [ActionBarAPI]
 commands:
   timer:
     description: Control the action bar timer
