@@ -27,12 +27,12 @@ public class CommandTimer implements CommandExecutor {
                 TimerManager.state = "running";
                 return true;
             }
-            if (args[0].equalsIgnoreCase("add")) {
-//                TODO
+            if (args[0].equalsIgnoreCase("plus")) {
+                TimerManager.time += CommandTimer.parseTime(args[1]);
                 return true;
             }
-            if (args[0].equalsIgnoreCase("remove")) {
-//                TODO
+            if (args[0].equalsIgnoreCase("minus")) {
+                TimerManager.time -= CommandTimer.parseTime(args[1]);
                 return true;
             }
         }
