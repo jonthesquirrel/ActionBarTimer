@@ -1,11 +1,10 @@
 name: ActionBarTimer
-version: SNAPSHOT
+version: 1.0.0
 author: jonthesquirrel
-main: io.github.jonthesquirrel.actionbartimer.Main
+main: io.github.jonthesquirrel.actionbartimer.ActionBarTimer
 website: https://github.com/jonthesquirrel/ActionBarTimer
-depend: [ActionBarAPI]
 commands:
   timer:
     description: Control the action bar timer
-    usage: /timer <set [[hh:]mm:]ss|clear|pause|unpause|plus|minus>
+    usage: /timer <<set|add|remove> [_h][_m][_s]|start|pause|stop>
     permission: actionbartimer.use

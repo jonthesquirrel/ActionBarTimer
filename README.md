@@ -1,9 +1,6 @@
 # ActionBarTimer
 
-Requires [ActionBarAPI](https://www.spigotmc.org/resources/actionbarapi-1-8-1-12.1315/)
+- Command: **/timer**
+- Permission: `actionbartimer.use`
 
-### Commands
-`/timer <set [[hh:]mm:]ss|clear|pause|unpause|plus|minus>`
-
-### Permissions
-`actionbartimer.use`
+[**Download**](https://github.com/jonthesquirrel/ActionBarTimer/releases)
