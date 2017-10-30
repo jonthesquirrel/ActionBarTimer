@@ -5,6 +5,6 @@ main: io.github.jonthesquirrel.actionbartimer.ActionBarTimer
 website: https://github.com/jonthesquirrel/ActionBarTimer
 commands:
   timer:
-    description: Control the action bar timer
-    usage: /timer <<set|add|remove> [_h][_m][_s]|start|pause|stop>
+    description: Use the action bar timer
+    usage: '§cUsage: /timer <set|add|remove [_h][_m][_s]>|<start|pause|stop>'
     permission: actionbartimer.use
