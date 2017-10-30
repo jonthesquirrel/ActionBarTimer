@@ -11,7 +11,7 @@ public class CommandTimer implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, org.bukkit.command.Command command, String label, String[] args) {
         if (args.length > 0) {
-            if (args[0].equalsIgnoreCase("set")) {
+            if (args[0].equalsIgnoreCase("=")) {
                 try {
                     Duration d = Formatter.parse(args[1]);
                     AsyncTimer.setTime(d);
@@ -20,7 +20,7 @@ public class CommandTimer implements CommandExecutor {
                     return false;
                 }
             }
-            if (args[0].equalsIgnoreCase("add")) {
+            if (args[0].equalsIgnoreCase("+")) {
                 try {
                     Duration d = Formatter.parse(args[1]);
                     AsyncTimer.addTime(d);
@@ -29,7 +29,7 @@ public class CommandTimer implements CommandExecutor {
                     return false;
                 }
             }
-            if (args[0].equalsIgnoreCase("remove")) {
+            if (args[0].equalsIgnoreCase("-")) {
                 try {
                     Duration d = Formatter.parse(args[1]);
                     AsyncTimer.removeTime(d);

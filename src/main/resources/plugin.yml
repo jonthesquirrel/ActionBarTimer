@@ -6,5 +6,5 @@ website: https://github.com/jonthesquirrel/ActionBarTimer
 commands:
   timer:
     description: Use the action bar timer
-    usage: '§cUsage: /timer <set|add|remove [_h][_m][_s]>|<start|pause|stop>'
+    usage: '§cUsage: /timer =|+|- [_h][_m][_s]|start|pause|stop'
     permission: actionbartimer.use
