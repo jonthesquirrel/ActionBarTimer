@@ -22,8 +22,10 @@ public class AsyncTimer extends BukkitRunnable {
             }
             pause();
         } else {
+            if (!paused) {
+                removeTime(Duration.ofSeconds(1));
+            }
             String message = paused ? Formatter.format(time) + " (paused)" : Formatter.format(time);
-            removeTime(Duration.ofSeconds(1));
             new SyncActionBarSender(message).runTask(plugin);
         }
     }
